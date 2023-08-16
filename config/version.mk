@@ -16,7 +16,7 @@
 SUPERIOR_MOD_VERSION = Thirteen
 
 ifndef SUPERIOR_BUILD_TYPE
-    SUPERIOR_BUILD_TYPE := EXTENDED
+    SUPERIOR_BUILD_TYPE := Punky_SupEx
 endif
 
 # Test Build Tag
@@ -46,7 +46,7 @@ PRODUCT_PACKAGES += \
     Updater
 
 ifeq ($(BUILD_WITH_GAPPS),true)
-SUPERIOR_EDITION := GAPPS
+SUPERIOR_EDITION := GAPPED
 else
 SUPERIOR_EDITION := Vanilla
 endif
